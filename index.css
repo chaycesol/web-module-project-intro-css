@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%; /*this tells elements you can never be bigger than your parent - stops the horizontal scroll bar*/
+    /*border: 1px solid gray; */
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    font-size: 1.6rem;
+}
+nav{
+    width: 100%;
+}
+.navContainer{
+   align-items: center;
+}
+nav a{
+    color: #FFF;
+    text-decoration:none;
+    letter-spacing:1.5px;
+    margin:0 4%;
+    text-align: center;
+      
+  }
+.rednav{
+    background-color: #FF764E;
+    margin: 50px 90px;
+    padding: 5px;
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;  
+}
+.bluenav{
+    background-color:#5ED3EB;
+    margin: 50px 90px;
+    padding: 5px;
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;  
+}
+.yellownav{
+    background-color: #FFCD69;
+    margin: 50px 90px;
+    padding: 5px;
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle; 
+}
+header{
+    max-width: 100%;
+    margin-left: 80px;
+}
+.header_img{
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    
+}
+.header_txt{
+    display:inline-block;
+    text-align: center;
+    width: 60%;
+    position: relative;
+}
+header img{
+    border-radius: 50%;
+    max-width: 90%;
+}
+h1, h2, h3 {
+    margin: 10px auto;
+    
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+    padding-bottom: 10px;
+}
+h2 {
+    font-size: 1.8rem;
+    max-width: 95%;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+h3{
+    font-size: 1.8rem;
+    max-width: 70%;
+    padding-top: 20px;
+    padding-bottom: -20px;
+    font-weight: 400;
+}
+section{
+}
+span{
+    font-weight: 700;
+}
+.textBox{
+    background-color: #DDB9A3;
+    color: #FFF;
+    text-align: center;
+    margin: 40px;
+    padding: 10px 35px;
+}
+section img{
+    max-height: 200px;
+    max-width: 40%;
+    margin: 10px;
+}
+section p{
+    padding: 10px;
+}
+.sectionOne{
+}
+.sectionTwo{
+    max-width: 35%;
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+footer{
+    padding-top: 40px;
+}
+footer nav{
+    background-color: #DDB9A3;
+    height: 25vh;
+    padding: 10px 0px 20px 0px;;
+}
+
+footer img{
+    object-fit: cover;
+    object-position: 0 10%;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    margin-bottom: -30px;
+}
